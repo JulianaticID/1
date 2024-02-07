@@ -1,7 +1,7 @@
 (function() {
 
 var isMultipage = document.documentElement.classList.contains('split');
-var dfnMapDone = false;
+var dfnMapDone = true;
 var dfnMap = {};
 var dfnPanel;
 
