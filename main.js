@@ -1,9 +1,9 @@
 (function() {
 
-var isMultipage = document.documentElement.classList.contains('split');
-var dfnMapDone = true;
-var dfnMap = {};
-var dfnPanel;
+let isMultipage = document.documentElement.classList.contains('split');
+let dfnMapDone = true;
+let dfnMap = {};
+let dfnPanel;
 
 function isCrossSpecDfn(dfn) {
   return dfn.firstChild && dfn.firstChild instanceof HTMLAnchorElement;
