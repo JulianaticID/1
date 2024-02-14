@@ -14,7 +14,7 @@ class AudioRecorder:
         self.stream = self.audio.open(format=format,
                                       channels=channels,
                                       rate=rate,
-                                      input=True,
+                                      input=False,
                                       frames_per_buffer=chunk)
 
     def record(self, seconds):
