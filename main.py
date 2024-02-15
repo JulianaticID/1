@@ -17,12 +17,6 @@ class AudioRecorder:
                                       input=False,
                                       frames_per_buffer=chunk)
 
-    def record(self, seconds):
-        print("Recording...")
-        for _ in range(0, int(self.rate / self.chunk * seconds)):
-            data = self.stream.read(self.chunk)
-            self.frames.append(data)
-        print("Finished recording.")
 
     def save(self):
         self.stream.stop_stream()
