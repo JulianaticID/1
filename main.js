@@ -38,7 +38,7 @@ function handleClick(event) {
   if (isMultipage) {
     path = location.pathname;
   }
-  let specURL = '';
+var specURL = '';
   if (isCrossSpecDfn(node)) {
     specURL = node.firstChild.href;
     event.preventDefault();
