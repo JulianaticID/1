@@ -33,8 +33,8 @@ function handleClick(event) {
   if (!node) {
     return;
   }
-  var id = node.id || node.parentNode.id;
-  var path = '';
+  let id = node.id || node.parentNode.id;
+  let path = '';
   if (isMultipage) {
     path = location.pathname;
   }
