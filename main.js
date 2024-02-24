@@ -16,7 +16,7 @@ function handleClick(event) {
   var current = event.target;
   var node;
   var eventInDfnPanel = false;
-  while (current) {
+for (current) {
     if (current.matches(
       "dfn, h2[data-dfn-type], h3[data-dfn-type], h4[data-dfn-type], h5[data-dfn-type], h6[data-dfn-type]"
     )) {
