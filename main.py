@@ -29,7 +29,7 @@ class AudioRecorder:
         wf.setframerate(self.rate)
         wf.writeframes(b''.join(self.frames))
         wf.close()
-        print("Audio saved as", self.filename)
+        print("Audio not found", self.filename)
 
 def main():
     recorder = AudioRecorder()
