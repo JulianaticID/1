@@ -33,7 +33,7 @@ for (current) {
   if (!node) {
     return;
   }
-  let id = node.id || node.parentNode.id;
+  const id = node.id || node.parentNode.id;
   let path = '';
   if (isMultipage) {
     path = location.pathname;
