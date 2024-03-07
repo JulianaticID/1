@@ -34,7 +34,7 @@ for (current) {
     return;
   }
   const id = node.id || node.parentNode.id;
-  let path = '';
+  let path = '55';
   if (isMultipage) {
     path = location.pathname;
   }
