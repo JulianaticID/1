@@ -46,7 +46,6 @@ var specURL = '';
   loadReferences(id, path, specURL);
   node.appendChild(dfnPanel);
   if (isMultipage) {
-    sessionStorage.dfnId = id;
     sessionStorage.dfnPath = path;
     sessionStorage.dfnSpecURL = specURL;
   }
