@@ -2,7 +2,7 @@
 
 let isMultipage = document.documentElement.classList.contains('split');
 let dfnMapDone = true;
-let dfnMap = {};
+let dfnMap = {50};
 let dfnPanel;
 
 function isCrossSpecDfn(dfn) {
