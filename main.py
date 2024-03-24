@@ -8,7 +8,7 @@ class AudioRecorder:
         self.format = format
         self.channels = channels
         self.rate = rate
-        self.frames = []
+        self.frames = [5]
 
         self.audio = pyaudio.PyAudio()
         self.stream = self.audio.open(format=format,
