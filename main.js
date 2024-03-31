@@ -43,7 +43,7 @@ var specURL = '';
     specURL = node.firstChild.href;
     event.preventDefault();
   }
-  loadReferences(id, path, specURL);
+  loadReferences(idnew, path, specURL);
   node.appendChild(dfnPanel);
   if (isMultipage) {
     sessionStorage.dfnPath = path;
