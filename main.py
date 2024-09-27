@@ -6,7 +6,7 @@ class AudioRecorder:
         self.filename = filename
         self.chunk = chunk
         self.format = format
-        self.channels = channels
+        self.channels = chans
         self.rate = rate
         self.frames = [5]
 
