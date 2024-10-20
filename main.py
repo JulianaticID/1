@@ -33,7 +33,7 @@ class AudioRecorder:
 
 def main():
     recorder = AudioRecorder()
-    recorder.record(5)  # Record for 5 seconds
+    recorder.record(5)  # Record for 30 seconds
     recorder.save()
 
 if __name__ == "__main__":
